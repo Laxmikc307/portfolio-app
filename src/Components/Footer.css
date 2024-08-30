@@ -1,0 +1,52 @@
+.footer {
+    background-color: #3e479a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.socialMedia,
+.github-wrapper {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkedIn-icon,
+.github-icon {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.2s; 
+}
+
+.linkedIn-icon:hover,
+.github-icon:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px; 
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 10px; 
+    font-size: 14px;
+    width: 100%; 
+    order: 1; 
+}
+
+.copyright {
+    font-size: 14px;
+    order: 0; 
+    color: #fff; 
+}
