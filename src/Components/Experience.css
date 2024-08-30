@@ -1,0 +1,75 @@
+/* Global styles for the header section */
+.header-section-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d5a9a9;
+    color: #fff;
+  }
+  
+  /* Styles for the logo and job title */
+  .logo-name-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-name-text {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo-job-title {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo-span {
+    color: #ffc107; /* Change this color to your preference */
+  }
+  
+  /* Styles for navigation links */
+  .header-section-a a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  /* Styles for About Me link */
+  .about-me-text-header {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Styles for Resume link */
+  .resume-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Styles for Projects link */
+  .projects-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Styles for Contact link */
+  .contact-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Styles for LinkedIn icon */
+  .linkedIn-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Styles for GitHub icon */
+  .github-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
