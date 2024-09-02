@@ -1,43 +1,98 @@
- .home{
-    width: 100%;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    color: #3e497a;
+ /* Home Section */
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  color: #3e497a;
+  padding: 20px;
+  background-color: #f4f7f9; /* Light background for the whole section */
 }
-.about{
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #c8d8c8;
-    color: rgb(115, 115, 39);
-}
-.about h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:  50px; 
-    color: rgb(198, 116, 16);
-    height: 50px;
-}
-.skills {
-  width: 100%; 
+
+/* About Section */
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c8d8c8;
+  color: rgb(101, 101, 15);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+}
+
+.about h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px; 
+  color: rgb(198, 116, 16);
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.about p {
+  font-size: 20px;
+  color: #555; /* A more subtle text color */
+  line-height: 1.6;
+  max-width: 800px; /* Limits the width for better readability */
+  margin-bottom: 30px;
+}
+
+/* Skills Section */
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: rgb(236, 153, 43);
-  padding: 20px; 
+  padding: 40px 20px; /* Adds padding for space */
+  background-color: #f0f4f8; /* Different background to distinguish the section */
 }
 
-/* Add the following styles to remove bullet points from the list */
+.skills h1 {
+  font-size: 36px;
+  color: #3e497a;
+  margin-bottom: 30px;
+}
+
 .list {
-    list-style-type: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h2 {
+  font-size: 28px;
+  color: #2367d1;
+  margin-bottom: 10px;
+}
+
+.item span {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .about h2 {
+      font-size: 40px;
   }
-  
-  .item {
-    margin-bottom: 10px;
+
+  .about p {
+      font-size: 18px;
   }
-   
+
+  .skills h1 {
+      font-size: 28px;
+  }
+
+  .item h2 {
+      font-size: 22px;
+  }
+}
